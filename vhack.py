@@ -86,7 +86,7 @@ def updatesdk():
 		d=dorequest(buildurl("vh_fillTasks.php",[("utype",toup)]))
 		print d.text
 def gettoupdate():
-	v=[(FW_LEVEL,"fw"),(ADW_LEVEL,"adw"),(SDK_LEVEL,"sdk"),(SCAN_LEVEL,"scan"),(IP_LEVEL,"ipsp"),(AV_LEVEL,"av")]
+	v=[(FW_LEVEL,"fw"),(ADW_LEVEL,"adw"),(SDK_LEVEL/2,"sdk"),(SCAN_LEVEL,"scan"),(IP_LEVEL,"ipsp"),(AV_LEVEL,"av")]
 	return min(v)[1]
 def update():
 	global UHASH,FW_LEVEL,ADW_LEVEL,SDK_LEVEL,SCAN_LEVEL,IP_LEVEL,AV_LEVEL
