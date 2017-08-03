@@ -8,6 +8,7 @@ A small bot for https://play.google.com/store/apps/details?id=org.vhack.dev.vhac
 Requirements:
 
 ```
+wxPython
 pytesseract>=0.1.7
 requests>=2.18.1
 Pillow>=4.2.1
